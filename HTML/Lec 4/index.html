@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label>Name:</label>
+        <input type="text" name="uname">
+        <br><br>
+        <label>Father Name:</label>
+        <input type="text" name="ufname">
+        <br><br>
+        <label>Age:</label>
+        <input type="number" name="uage">
+        <br><br>
+        <label>Password:</label>
+        <input type="password" name="upassword">
+        <br><br>
+
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br><br>
+        <label for="1">c++</label>
+        <input type="checkbox" name="subject" id="1" value="c++">
+
+        <label for="2">java</label>
+        <input type="checkbox" name="subject" id="2" value="java">
+        
+        <label for="3">python</label>
+        <input type="checkbox" name="subject" id="3" value="python">
+        
+        <br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+http://127.0.0.1:5500/index.html?uname=ram&ufname=mohan&uage=20&upassword=1234
+http://127.0.0.1:5500/index.html?uname=r&ufname=e&uage=10&upassword=1&gender=on
+http://127.0.0.1:5500/index.html?uname=r&ufname=e&uage=10&upassword=1&gender=male
+http://127.0.0.1:5500/index.html?uname=ram&ufname=raj&uage=23&upassword=12&gender=male&subject=java&subject=python
