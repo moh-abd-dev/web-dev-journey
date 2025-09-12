@@ -1,0 +1,24 @@
+#box1{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+}
+
+#box2{
+    height: 100px;
+    width:300px;
+    background-color: rgb(21, 1, 80);
+    position: absolute;
+    top: 50px;
+}
+
+#circle{
+    height: 80px;
+    width:80px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:110px;
+}

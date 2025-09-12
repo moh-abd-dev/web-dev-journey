@@ -1,0 +1,72 @@
+
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+/* 
+#c1{
+    background-color: blue;
+    height: 80px;
+    width:80px;
+position: absolute;
+}
+
+#c2{
+background-color: blue;
+    height: 80px;
+    width:80px;
+position: absolute;
+top:120px
+}
+
+#c3{
+background-color: blue;
+    height: 80px;
+    width:180px;
+position: absolute;
+left:120px
+}
+
+#c4{
+background-color: blue;
+    height: 80px;
+    width:180px;
+position: absolute;
+top:120px;
+left:120px
+} */
+
+.box{
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 132);
+}
+
+.first,.third{
+    height: 80px;
+    width: 80px;
+}
+
+.second,.fourth{
+    height:80px;
+width:180px;
+}
+
+.second{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.fourth{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.third{
+    position: absolute;
+    bottom: 0px;
+}

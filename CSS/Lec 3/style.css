@@ -1,0 +1,23 @@
+h1{
+    background-color: pink;
+}
+
+#firstId{
+    background-color: blueviolet;
+}
+
+#firstId{
+    background-color: blue;
+    background-color: brown;
+}
+
+h2{
+    background-color: yellow !important;
+}
+.classA{
+    background-color: aqua;
+}
+
+li{
+    background-color: bisque;
+}
