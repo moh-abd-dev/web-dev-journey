@@ -40,8 +40,25 @@ h2{
     height: 300px;
     width: 300px;
     padding: 20px;
-    border: 5px solid black;
+    border: 50px solid black;
     border-radius: 20px;
     box-sizing: border-box;
     /* margin: 50px; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  color: white; /* Make text visible */
+}
+
+.normal-box {
+  background-color: blue;
+  border: 10px solid navy; /* A normal, sensible border */
+}
+
+.impossible-box {
+  background-color: red;
+  border: 200px solid black; /* Your impossible border */
 }
